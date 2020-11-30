@@ -1,10 +1,11 @@
-🚀 @elforastero/eslint-config
+🚀 @spaceship/eslint-config
 -------------
-Shareable ESLint config for React, React Native, React Native Web, and Node projects. All configs imply TypeScript.
+Shareable ESLint configs for React, React Native, React Native Web, and Node projects. All configs imply TypeScript.
+
 ## Usage
 Install npm package:
 ```shell script
-yarn add @elforastero/eslint-config
+yarn add @spaceship/eslint-config
 ```
 
 > As all dependencies are listed in peer dependencies, they should be installed manually depending on the chosen package.
@@ -22,7 +23,7 @@ Then extend your `.eslintrc` with one of the following configs:
 ```json
 {
   // Choose from eslint-config, */node, */web, */native, */hybrid
-  "extends": ["@elforastero/eslint-config/web"]
+  "extends": ["@spaceship/eslint-config/web"]
 }
 ```
 
@@ -30,7 +31,7 @@ Then extend your `.eslintrc` with one of the following configs:
 ```json
 {
   "eslintConfig": {
-    "extends": ["@elforastero/eslint-config/native"]
+    "extends": ["@spaceship/eslint-config/native"]
   }
 }
 ```
