@@ -5,7 +5,7 @@ Shareable ESLint configs for React, React Native, React Native Web, and Node pro
 ## Usage
 Install npm package:
 ```shell script
-yarn add @spaceship/eslint-config
+yarn add --dev @spaceship/eslint-config
 ```
 
 > As all dependencies are listed in peer dependencies, they should be installed manually depending on the chosen package.
@@ -22,7 +22,6 @@ Then extend your `.eslintrc` with one of the following configs:
 ### .eslintrc
 ```json
 {
-  // Choose from eslint-config, */node, */web, */native, */hybrid
   "extends": ["@spaceship/eslint-config/web"]
 }
 ```
@@ -37,10 +36,9 @@ Then extend your `.eslintrc` with one of the following configs:
 ```
 
 ### Customizing Prettier
-If you would like to customize the Prettier settings, create a file named .prettierrc in your project directory. An example of Prettier configuration file:
+If you would like to customize the Prettier settings, create a file named `.prettierrc` in your project directory. An example of Prettier configuration file:
 
 ```json
-// .prettierrc
 {
   "printWidth": 100,
   "tabWidth": 2,
