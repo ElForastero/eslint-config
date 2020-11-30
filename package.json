@@ -1,7 +1,7 @@
 {
-  "name": "@elforastero/eslint-config",
+  "name": "@spaceship/eslint-config",
   "version": "0.0.1",
-  "description": "Shareable ESLint config for @spaceship projects",
+  "description": "Shareable ESLint configs for React, React Native, React Native Web, and Node projects.",
   "keywords": [
     "eslint",
     "eslint-config",
