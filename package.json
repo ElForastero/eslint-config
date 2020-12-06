@@ -29,16 +29,21 @@
     "release": "standard-version"
   },
   "peerDependencies": {
+    "@react-native-community/eslint-config": "^2.0.0",
     "@react-native-community/eslint-plugin": ">= 1.1.0",
     "@typescript-eslint/eslint-plugin": ">= 4.8.2",
+    "@typescript-eslint/parser": "^4.9.0",
     "eslint": ">= 7.14.0",
+    "eslint-config-prettier": "^7.0.0",
     "eslint-plugin-eslint-comments": ">= 3.2.0",
+    "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-prettier": ">= 3.1.4",
     "eslint-plugin-react": ">= 7.21.5",
     "eslint-plugin-react-native": ">= 3.10.0",
     "eslint-plugin-react-native-a11y": ">= 2.0.3",
     "eslint-plugin-testing-library": ">= 3.10.1",
-    "prettier": ">= 2.2.1"
+    "prettier": ">= 2.2.1",
+    "typescript": ">= 3"
   },
   "devDependencies": {
     "@commitlint/cli": "^11.0.0",

@@ -6,7 +6,7 @@ module.exports = {
     './shared/core.js',
     './shared/typescript.js',
     './shared/react.js',
-    './shared/prettier.js',
     './shared/native.js',
+    './shared/prettier.js',
   ],
 };
