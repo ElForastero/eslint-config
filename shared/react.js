@@ -12,7 +12,7 @@ module.exports = {
     'react/jsx-curly-spacing': ['warn', { when: 'never' }],
     'react/jsx-equals-spacing': ['warn', 'never'],
     'react/jsx-first-prop-new-line': ['warn', 'multiline'],
-    'react/jsx-fragments': ['warn', 'syntax'],
+    'react/jsx-fragments': ['warn', 'element'],
     'react/jsx-indent': ['warn', 2],
     'react/jsx-indent-props': ['warn', 2],
     'react/jsx-no-bind': ['warn', { allowArrowFunctions: true }],
