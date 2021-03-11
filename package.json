@@ -1,6 +1,6 @@
 {
   "name": "@spaceship/eslint-config",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Shareable ESLint configs for React, React Native, React Native Web, and Node projects.",
   "keywords": [
     "eslint",
@@ -26,8 +26,7 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "release": "standard-version",
-    "postinstall": "husky install"
+    "release": "standard-version"
   },
   "dependencies": {
     "@react-native-community/eslint-config": ">= 2.0.0",
