@@ -8,8 +8,6 @@ Install npm package:
 yarn add --dev @spaceship/eslint-config
 ```
 
-> As all dependencies are listed in peer dependencies, they should be installed manually depending on the chosen package.
-
 Then extend your `.eslintrc` with one of the following configs:
 
 - `eslint-config` - default framework- and environment-agnostic config
