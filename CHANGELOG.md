@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.2.1](https://github.com/elforastero/eslint-config/compare/v0.0.3...v0.2.1) (2021-09-02)
+
+
+### Features
+
+* add i18n config ([719c7ce](https://github.com/elforastero/eslint-config/commit/719c7ce2eeca9332dd9947cdabf225319e0da0ac))
+* prefer element form of react fragments ([cbb75ed](https://github.com/elforastero/eslint-config/commit/cbb75ed30c214e44ec5edbe7800a039eaadc3728))
+* replace eslint-plugin-prettier with prettier cli ([8f25084](https://github.com/elforastero/eslint-config/commit/8f250845d04d056d2b33efb7f5caddd1d3c71101))
+
+
+### Bug Fixes
+
+* remove postinstall script ([77bad27](https://github.com/elforastero/eslint-config/commit/77bad27d0c4bcc16471b6b0c316848d2740d56b2))
+
 ### [0.0.3](https://github.com/elforastero/eslint-config/compare/v0.0.2...v0.0.3) (2020-12-06)
 
 
