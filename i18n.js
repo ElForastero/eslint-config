@@ -1,9 +1,12 @@
 module.exports = {
-  'i18next/no-literal-string': [
-    'warn',
-    {
-      markupOnly: true,
-      onlyAttribute: ['text', 'value', 'defaultValue', 'placeholder'],
-    },
-  ],
+  plugins: ['i18next'],
+  rules: {
+    'i18next/no-literal-string': [
+      'warn',
+      {
+        markupOnly: true,
+        onlyAttribute: ['text', 'value', 'defaultValue', 'placeholder'],
+      },
+    ],
+  },
 };
