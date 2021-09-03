@@ -18,6 +18,7 @@
     "native.js",
     "node.js",
     "web.js",
+    "i18n.js",
     "shared"
   ],
   "main": "index.js",
